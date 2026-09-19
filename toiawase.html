@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ・無料査定｜らくまる</title>
+  <meta name="description" content="金・プラチナ・ブランド・チケットの買取に関するお問い合わせ、無料査定依頼のフォームです。LINE・電話でもお受けしています。">
+  <link rel="canonical" href="https://raku-maru.co.jp/toiawase.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="らくまる">
+  <meta property="og:title" content="お問い合わせ・無料査定｜らくまる">
+  <meta property="og:description" content="買取に関するお問い合わせ・無料査定依頼のフォーム。LINE・電話でもお受けしています。">
+  <meta property="og:url" content="https://raku-maru.co.jp/toiawase.html">
+  <meta property="og:image" content="https://raku-maru.co.jp/assets/img/ogp.jpg">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"らくまる","url":"https://raku-maru.co.jp/","telephone":"+81-3-5725-9573"}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="site-logo"><a href="index.html">らくまる<span class="en">Rakumaru</span></a></div>
+    <nav class="site-nav" aria-label="グローバルナビ">
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="kaitori-top.html">チケット買取</a></li>
+        <li><a href="brand-top.html">ブランド買取</a></li>
+        <li><a href="guide.html">店舗案内</a></li>
+        <li><a href="faq.html">よくある質問</a></li>
+        <li><a href="toiawase.html" class="current">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <a class="header-cta header-cta-desktop" href="#form">フォームへ</a>
+    <button class="menu-toggle" aria-label="メニュー開閉" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <span class="en">Contact &amp; Free Estimate</span>
+    <h1>お問い合わせ・無料査定</h1>
+    <p>商品の状態がわかる情報（写真や型番など）をお知らせいただけると、スムーズに概算査定ができます。</p>
+  </div>
+</div>
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <div class="container">
+    <ol>
+      <li><a href="index.html">ホーム</a></li>
+      <li>お問い合わせ</li>
+    </ol>
+  </div>
+</nav>
+
+<main>
+<section id="form">
+  <div class="container">
+    <div class="form-wrap">
+      <p class="text-center" style="color:var(--color-text-sub);margin-bottom:32px;">下記フォームよりお問い合わせください。必須項目（<span style="background:var(--color-emerald);color:#fff;font-size:.7rem;padding:2px 6px;border-radius:4px;">必須</span>）をすべてご入力の上、送信ボタンを押してください。<br>原則2営業日以内にご返信いたします。</p>
+
+      <form class="contact-form" action="mailto:raku_gakugeidai@rot-r.com" method="post" enctype="text/plain">
+
+        <div class="form-row">
+          <label for="name">お名前<span class="req">必須</span></label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="山田 太郎">
+          <div class="error-msg">お名前をご入力ください。</div>
+        </div>
+
+        <div class="form-row">
+          <label for="email">メールアドレス<span class="req">必須</span></label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@domain.com">
+          <div class="error-msg">有効なメールアドレスをご入力ください。</div>
+        </div>
+
+        <div class="form-row">
+          <label for="tel">電話番号<span class="opt">任意</span></label>
+          <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="03-0000-0000">
+          <div class="error-msg">有効な電話番号をご入力ください。</div>
+        </div>
+
+        <div class="form-row">
+          <label for="category">お問い合わせカテゴリ<span class="req">必須</span></label>
+          <select id="category" name="category" required>
+            <option value="">選択してください</option>
+            <option value="チケット買取">チケット・金券の買取</option>
+            <option value="ブランド買取">ブランド品の買取</option>
+            <option value="貴金属買取">金・プラチナ・ジュエリーの買取</option>
+            <option value="郵送買取">郵送買取の申込</option>
+            <option value="その他">その他のお問い合わせ</option>
+          </select>
+          <div class="error-msg">カテゴリを選択してください。</div>
+        </div>
+
+        <div class="form-row">
+          <label for="channel">ご希望の連絡方法<span class="opt">任意</span></label>
+          <select id="channel" name="channel">
+            <option value="メール">メール</option>
+            <option value="電話">電話</option>
+            <option value="LINE">LINE</option>
+            <option value="どれでも">どれでも可</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="message">お問い合わせ内容<span class="req">必須</span></label>
+          <textarea id="message" name="message" required placeholder="例：&#10;・商品名（ブランド名・型番等）&#10;・状態（使用頻度・付属品の有無）&#10;・希望する買取方法（店頭／LINE／郵送／メール）"></textarea>
+          <div class="error-msg">お問い合わせ内容をご入力ください。</div>
+        </div>
+
+        <div class="form-agree">
+          <input type="checkbox" id="agree" name="agree" required>
+          <label for="agree"><a href="privacy.html">プライバシーポリシー</a>に同意の上、送信します。</label>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn-primary btn-lg">この内容で送信する</button>
+        </div>
+
+      </form>
+
+      <div class="form-alt">
+        <p>お急ぎの方は、お電話またはLINEでも受け付けております。</p>
+        <div class="form-alt-buttons">
+          <a href="tel:0357259573" class="btn btn-outline">電話する（学芸大学店）</a>
+          <a href="tel:0455349773" class="btn btn-outline">電話する（日吉駅前店）</a>
+          <a href="https://line.me/" class="btn btn-gold">LINEで査定依頼</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="max-width:720px;margin:40px auto 0;">
+      <h3 style="color:var(--color-emerald);">査定をスムーズに進めるためのコツ</h3>
+      <ul class="info-list">
+        <li>商品の全体・ロゴ・型番・シリアルなど複数角度の写真を添付してください</li>
+        <li>付属品（箱・保証書・保存袋・ギャランティカード等）の有無を明記してください</li>
+        <li>貴金属は刻印（K18、Pt950 等）と、可能であれば重量をお知らせください</li>
+        <li>チケット・金券は「券種」「額面」「枚数」「有効期限」が分かると即座に概算が出せます</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">らくまる</div>
+        <p class="footer-description">金・プラチナ・ブランド・チケット買取専門店。古物営業許可 第303301606963号。</p>
+      </div>
+      <div class="footer-col">
+        <h4>買取メニュー</h4>
+        <ul>
+          <li><a href="kaitori-top.html">チケット買取</a></li>
+          <li><a href="brand-top.html">ブランド買取</a></li>
+          <li><a href="jisseki.html">買取実績</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>店舗・査定</h4>
+        <ul>
+          <li><a href="guide.html">店舗案内</a></li>
+          <li><a href="faq.html">よくある質問</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>会社情報</h4>
+        <ul>
+          <li><a href="toiawase.html">お問い合わせ</a></li>
+          <li><a href="kaisya-gaiyou.html">会社概要</a></li>
+          <li><a href="privacy.html">プライバシーポリシー</a></li>
+          <li><a href="tokuteisyoutorihiki.html">特定商取引法表記</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 株式会社rotR All Rights Reserved.</span>
+      <span class="permit">古物商許可 東京都公安委員会 第303301606963号</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a href="https://line.me/" class="line">LINE査定</a>
+  <a href="tel:0357259573" class="tel">電話する</a>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
